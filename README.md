@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
 ## Getting Started
 
@@ -26,6 +26,35 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## This Repo contains a code sample for a simple Navbar with mobile and desktop views
+
+The Navbar is built using [Tailwind CSS](https://tailwindcss.com/). The Navbar is responsive and has a mobile and desktop view. The mobile view is a hamburger menu that opens a sidebar. The desktop view is a horizontal navbar.
+
+The Navbar is built using [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
+
+Steps to build the Navbar:
+
+- Copy the code from `src/components/navbar/Navbar.tsx` into your project
+- Copy the code from `src/components/navbar/NavbarMobile.tsx` into your project
+- Copy the `tailwindcss styles` in the `global.css` file into your project
+- To ensure everything works, copy the `tailwind.config.js` file into your project and install dependencies in `package.json` file
+  
+  ```bash
+  npm install
+  # or
+  yarn install
+  # or
+  pnpm install
+  ```
+
+**`Note`:**
+
+The `md:` breakpoints use are used to target the mobile view. You can change the breakpoints to target your mobile view.
+
+For example, if you want to target the mobile view at `sm` breakpoint, you can change the `md:` breakpoints to `sm:` breakpoints.
+
+You can add your own styling to the Navbar by adding your own Tailwind CSS classes to the Navbar components.
 
 ## Deploy on Vercel
 
